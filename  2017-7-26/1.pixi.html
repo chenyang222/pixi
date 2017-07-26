@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/pixi.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	<!--
+			Pixi是一款非常快速的2D精灵渲染引擎。它可以帮助您显示，动画和管理交互图形，以便您可以使用
+		javascript和其它html5技术制作游戏和应用程序。它有一个明智的，整洁的api，包括许多有用的功能。
+		
+		
+	-->
+	
+	<script type="text/javascript">
+		var type = "webgl";
+	    if(!PIXI.utils.isWebGLSupported()){
+	      type = "canvas"
+	    }
+	    PIXI.utils.sayHello(type)
+	</script>		
+	</body>
+</html>
